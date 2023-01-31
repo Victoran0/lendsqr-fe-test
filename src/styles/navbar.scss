@@ -1,0 +1,101 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 30px 30px 0 30px;
+    border-bottom: 1px solid #213F7D0F;
+    padding-bottom: 20px;
+    &-logo {
+        height: 36px;
+        margin-right: 180px;
+    }
+    input {
+        width: 267px;
+        height: 36px;
+        border-radius: 8px 0 0 8px;
+        border: 2px solid #545F7D26;
+        padding: 0 10px;
+    }
+    button {
+        cursor: pointer;
+        background: #39CDCC;
+        height: 40px;
+        width: 56px;
+        border: none;
+        border-radius: 0 8px 8px 0;
+        color: #FFFFFF;
+        margin-right: 23.5rem;
+    }
+    .docs {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #213F7D;
+        margin-right: 50px;
+        
+    }
+    .avatar {
+        margin: 0 25px 0 40px;
+    }
+    p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;        
+        color: #213F7D;
+        margin-right: 10px;
+    }
+}
+
+// body {
+//     margin: 0 300px;
+// }
+// .navbar {
+//     display: flex;
+//     align-items: center;
+//     margin: 30px;
+//     &-logo {
+//         height: 36px;
+//         margin-right: 60px;
+//     }
+//     input {
+//         font-size: 0.6rem;
+//         width: 267px;
+//         height: 26px;
+//         border-radius: 8px 0 0 8px;
+//         border: 2px solid #545F7D26;
+//         padding: 0 10px;
+//     }
+//     button {
+//         cursor: pointer;
+//         background: #39CDCC;
+//         height: 30px;
+//         width: 56px;
+//         border: none;
+//         border-radius: 0 8px 8px 0;
+//         color: #FFFFFF;
+//         margin-right: 10.5rem;
+//     }
+//     .docs {
+//         font-family: 'Roboto', sans-serif;
+//         font-weight: 400;
+//         font-size: 13px;
+//         line-height: 19px;
+//         color: #213F7D;
+//         margin-right: 20px;
+        
+//     }
+//     .avatar {
+//         margin: 0 15px 0 30px;
+//     }
+//     p {
+//         font-family: 'Work Sans';
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 16px;
+//         line-height: 19px;        
+//         color: #213F7D;
+//         margin-right: 5px;
+//     }
+// }

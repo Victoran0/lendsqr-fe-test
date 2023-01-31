@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/index.scss';
+import '../styles/login.scss';
 import lendsqr from '../images/lendsqr.png';
 import pablo from '../images/pablo.png'
 import {Link} from 'react-router-dom'
@@ -18,7 +18,7 @@ const Login = () => {
             <input type='email' placeholder='Email' /> <br />
             <input type='password' placeholder='Password' /> <br />
             <Link className='welcome__forgot' to='/'>FORGOT PASSWORD?</Link> <br />
-            <Link to='/'><button type='submit'>LOG IN</button></Link>
+            <Link to='/users'><button type='submit'>LOG IN</button></Link>
         </form>
         </div>
         </div>
