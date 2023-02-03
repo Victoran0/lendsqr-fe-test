@@ -32,8 +32,8 @@ const Sidebar = () => {
                 <img width='14px' height='11px' src={realdropdown} alt="dropdwon" />
                     </span> 
             </div>
-            <span>
-                <img width='16px' height='14.22px' src={dashboard} alt="dashboard" />
+            <span className='dashboard'>
+                <img  width='16px' height='14.22px' src={dashboard} alt="dashboard" />
                 Dashboard 
             </span>
             <p>CUSTOMERS</p>
@@ -44,10 +44,6 @@ const Sidebar = () => {
             <span>
                 <img width='16px' height='12.8px' src={guarantors} alt="guarantors" />
                 Guarantors 
-            </span>
-            <span>
-                <img src={guarantors} width='16px' height='12.8px' alt="guarantors" />
-            Guarantors 
             </span>
             <span>
                 <img width='16px' height='12.8px' src={loans} alt="loans" />
@@ -104,7 +100,7 @@ const Sidebar = () => {
             </span>
             <p>SETTINGS</p>
             <span>
-                <img width='16px' height='16px' src={slider} alt="preferences" />preferences
+                <img width='16px' height='16px' src={slider} alt="preferences" />Preferences
             </span>
             <span>
                 <img src={pricing} alt="fees" width='16px' height='16px' />Fees and Pricing

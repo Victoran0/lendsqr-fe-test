@@ -44,9 +44,10 @@
         }
     }
     table {
+        margin-top: 30px;
         text-align: left;
         background-color: #fff;
-        padding: 20px 0 0 20px;
+        padding: 20px 20px 0 20px;
         width: 1037px;
         th {
             padding-bottom: 13.8px;
@@ -57,22 +58,85 @@
             align-items: center;
             img {
                 padding-left: 12px;
-                width: 16px;
-                height: 11px;
+                width: 13px;
+                height: 9px;
             }
         }
         td {
             font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
+            font-size: 12px;
+            line-height: 1px;
             color: #545F7D;
-            padding: 17.2px 0;
+            padding: 0.2px 0;
             border-bottom: 1px solid #213F7D0F;
+            P {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 0px;
+                color: #545F7D;
+                background: #213F7D0F;
+                border-radius: 100px;
+                padding: 10px 10px 10px 10px;
+                text-align: center;
+            }
+            img {
+                position: relative;
+                margin-left: 20px;
+                cursor: pointer;
+                div {
+                    position: absolute;
+                }
+            }
         }
     }
     .index {
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: 1038px;
+        h1, h2, div {
+            padding: 0;
+            margin: 23px 5px 0 0 ;
+            line-height: 0;
+            font-weight: 400;
+            font-size: 14px;
+            color: #545F7D;
+        }
+        h1 {
+            margin-right: 15px;
+        }
+        h2 {
+            margin-right: auto;
+            span {
+                cursor: pointer;
+                background: rgba(33, 63, 125, 0.1);
+                border-radius: 4px;
+                padding: 8px 10px;
+                font-weight: 600;
+                line-height: 2px;
+                margin-right: 12px;
+                img {
+                    padding-left: 20px;
+                }
+            }
+            
+        }
+        img {
+            cursor: pointer;
+        }
+        div {
+            display: flex;
+            opacity: 0.6;
+            p {
+                padding: 0 15px;
+                font-weight: 400;
+                font-size: 16px;
+                color: #545F7D;
+                letter-spacing: 3.5px;        
+            }
+            img {
+                margin-top: 3.5px;
+            }
+        }
     }
 }

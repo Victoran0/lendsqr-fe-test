@@ -9,8 +9,8 @@ const UsersPage = () => {
     <div>
       <Navbar />
       <div className='users'>
-      <Sidebar />
-      <div className='user'><Users /></div>
+        <Sidebar />
+        <div className='user'><Users /></div>
       </div>
     </div>
   )
